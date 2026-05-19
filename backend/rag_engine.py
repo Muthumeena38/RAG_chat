@@ -3,6 +3,7 @@ import io
 import uuid
 # pyrefly: ignore [missing-import]
 import PyPDF2
+# pyrefly: ignore [missing-import]
 import docx
 from collections import deque
 from sentence_transformers import SentenceTransformer
