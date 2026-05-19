@@ -1,0 +1,20 @@
+1.To run the backend:
+cd m:\RAG_chat\backend
+.\venv\Scripts\activate
+uvicorn main:app --reload
+
+2.To run the frontend:
+cd m:\RAG_chat\frontend
+npm run dev
+
+To stop the backend: Ctrl+C
+To stop the frontend: Ctrl+C
+
+Project Title: DocMind | AI-Powered RAG Application Tech Stack: React, Vite, FastAPI, Python, ChromaDB, Groq API (LLaMA 3.1), Sentence-Transformers
+
+Brief Bullet Points:
+
+Built a full-stack RAG (Retrieval-Augmented Generation) application using React/Vite for the UI and FastAPI for a high-performance backend.
+Implemented document parsing (PDF/DOCX) and semantic search using ChromaDB and local Sentence-Transformers for vector embeddings.
+Integrated the Groq API (LLaMA 3.1) for blazing-fast, context-aware LLM query responses based on uploaded documents.
+
