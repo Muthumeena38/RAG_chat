@@ -13,7 +13,7 @@ function App() {
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
 
-  const API_URL = 'http://localhost:8000';
+  const API_URL = 'https://rag-chat-bd0f.onrender.com';
 
   useEffect(() => {
     fetch(`${API_URL}/status`)
